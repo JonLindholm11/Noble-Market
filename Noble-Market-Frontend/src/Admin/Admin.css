@@ -1,0 +1,378 @@
+/* Admin Page Main Styles */
+.admin-page {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 2rem;
+  font-family: Arial, sans-serif;
+  min-height: 100vh;
+}
+
+.admin-loading {
+  text-align: center;
+  padding: 2rem;
+  font-size: 1.2rem;
+  color: #6c757d;
+}
+
+/* Admin Header */
+.admin-header {
+  background-color: #f8f9fa;
+  border-radius: 8px;
+  padding: 1.5rem;
+  margin-bottom: 2rem;
+  text-align: center;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.admin-header h1 {
+  font-size: 2rem;
+  color: #d4a055;
+  margin-bottom: 0.5rem;
+  font-weight: 700;
+  border-bottom: 3px solid #007bff;
+  padding-bottom: 0.5rem;
+  display: inline-block;
+}
+
+.admin-header p {
+  margin: 0.5rem 0;
+  font-size: 1rem;
+  color: #6c757d;
+}
+
+.user-info {
+  margin-top: 1rem;
+  padding-top: 1rem;
+  border-top: 2px solid #dee2e6;
+  font-size: 1rem;
+  color: #495057;
+}
+
+/* Navigation */
+.admin-navigation {
+  display: flex;
+  gap: 1rem;
+  margin-bottom: 2rem;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+.admin-navigation button {
+  padding: 0.75rem 1.5rem;
+  background-color: #f8f9fa;
+  color: #495057;
+  border: 1px solid #dee2e6;
+  border-radius: 4px;
+  cursor: pointer;
+  font-size: 1rem;
+  font-weight: 600;
+  transition: all 0.3s ease;
+}
+
+.admin-navigation button:hover {
+  background-color: #007bff;
+  color: white;
+  border-color: #007bff;
+  transform: translateY(-2px);
+}
+
+.admin-navigation button.nav-active {
+  background-color: #007bff;
+  color: white;
+  border-color: #007bff;
+}
+
+/* Content Area */
+.admin-content-area {
+  background-color: #ffffff;
+  border: 1px solid #dee2e6;
+  padding: 1.5rem;
+  border-radius: 8px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+/* Section Styles */
+.register-employee-section,
+.role-selection-section,
+.special-pricing-section,
+.salesman-selection-section {
+  color: #495057;
+}
+
+.register-employee-section h2,
+.role-selection-section h2,
+.special-pricing-section h2,
+.salesman-selection-section h2 {
+  font-size: 1.5rem;
+  color: #495057;
+  margin-bottom: 1rem;
+  border-bottom: 2px solid #dee2e6;
+  padding-bottom: 0.5rem;
+}
+
+.register-employee-section p,
+.role-selection-section p,
+.special-pricing-section p,
+.salesman-selection-section p {
+  margin: 0 0 1.5rem 0;
+  color: #6c757d;
+  font-size: 1rem;
+}
+
+/* Form Styles */
+.admin-form {
+  background-color: #f8f9fa;
+  padding: 1.5rem;
+  border-radius: 8px;
+  margin-bottom: 2rem;
+}
+
+.form-group {
+  margin-bottom: 1.5rem;
+}
+
+.form-group label {
+  display: flex;
+  flex-direction: column;
+  gap: 0.5rem;
+  font-weight: 600;
+  color: #495057;
+  font-size: 1rem;
+}
+
+.form-group input,
+.form-group select {
+  width: 100%;
+  padding: 0.75rem;
+  border: 1px solid #ced4da;
+  border-radius: 4px;
+  font-size: 1rem;
+  transition: border-color 0.3s ease, box-shadow 0.3s ease;
+  box-sizing: border-box;
+}
+
+.form-group input:focus,
+.form-group select:focus {
+  outline: none;
+  border-color: #007bff;
+  box-shadow: 0 0 0 0.2rem rgba(0, 123, 255, 0.25);
+}
+
+/* Buttons */
+.submit-btn,
+.save-btn {
+  padding: 0.75rem 1.5rem;
+  background-color: #007bff;
+  color: white;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  font-size: 1rem;
+  font-weight: 600;
+  transition: background-color 0.3s ease;
+}
+
+.submit-btn:hover,
+.save-btn:hover {
+  background-color: #0056b3;
+}
+
+.delete-btn {
+  padding: 0.5rem 1rem;
+  background-color: #dc3545;
+  color: white;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  font-size: 0.9rem;
+  font-weight: 600;
+  transition: background-color 0.3s ease;
+}
+
+.delete-btn:hover {
+  background-color: #c82333;
+}
+
+/* Refresh Button */
+.refresh-btn {
+  margin-bottom: 15px;
+  padding: 10px 20px;
+  background-color: #667eea;
+  color: white;
+  border: none;
+  border-radius: 8px;
+  cursor: pointer;
+  font-size: 0.95rem;
+  font-weight: 600;
+  transition: all 0.3s ease;
+}
+
+.refresh-btn:hover {
+  background-color: #5568d3;
+  transform: translateY(-2px);
+  box-shadow: 0 5px 15px rgba(102, 126, 234, 0.4);
+}
+
+.refresh-btn:active {
+  transform: scale(0.98);
+}
+
+/* Messages */
+.success-message {
+  margin-top: 1rem;
+  padding: 0.75rem;
+  background-color: #d4edda;
+  color: #155724;
+  border: 1px solid #c3e6cb;
+  border-radius: 4px;
+  font-weight: 500;
+}
+
+.error-message {
+  margin-top: 1rem;
+  padding: 0.75rem;
+  background-color: #f8d7da;
+  color: #721c24;
+  border: 1px solid #f5c6cb;
+  border-radius: 4px;
+  font-weight: 500;
+}
+
+/* Tables */
+.users-table,
+.customers-table,
+.pricing-table {
+  width: 100%;
+  border-collapse: collapse;
+  margin-top: 1rem;
+  background-color: white;
+  border-radius: 8px;
+  overflow: hidden;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.users-table thead,
+.customers-table thead,
+.pricing-table thead {
+  background-color: #007bff;
+  color: white;
+}
+
+.users-table th,
+.customers-table th,
+.pricing-table th {
+  padding: 1rem;
+  text-align: left;
+  font-weight: 600;
+  font-size: 1rem;
+}
+
+.users-table td,
+.customers-table td,
+.pricing-table td {
+  padding: 1rem;
+  border-bottom: 1px solid #dee2e6;
+  color: #495057;
+}
+
+.users-table tbody tr:hover,
+.customers-table tbody tr:hover,
+.pricing-table tbody tr:hover {
+  background-color: #f8f9fa;
+}
+
+.users-table tbody tr:last-child td,
+.customers-table tbody tr:last-child td,
+.pricing-table tbody tr:last-child td {
+  border-bottom: none;
+}
+
+/* Select Dropdowns in Tables */
+.role-select,
+.salesman-select {
+  padding: 0.5rem 0.75rem;
+  border: 1px solid #ced4da;
+  border-radius: 4px;
+  font-size: 1rem;
+  background-color: white;
+  cursor: pointer;
+  transition: border-color 0.3s ease, box-shadow 0.3s ease;
+  width: auto;
+  min-width: 150px;
+}
+
+.role-select:focus,
+.salesman-select:focus {
+  outline: none;
+  border-color: #007bff;
+  box-shadow: 0 0 0 0.2rem rgba(0, 123, 255, 0.25);
+}
+
+/* Special Pricing List */
+.special-pricing-list {
+  margin-top: 2rem;
+}
+
+.special-pricing-list h3 {
+  color: #495057;
+  margin-bottom: 1rem;
+  font-size: 1.3rem;
+  border-bottom: 2px solid #dee2e6;
+  padding-bottom: 0.5rem;
+}
+
+/* Responsive Design */
+@media (max-width: 768px) {
+  .admin-page {
+    padding: 1rem;
+  }
+
+  .admin-navigation {
+    flex-direction: column;
+  }
+
+  .admin-navigation button {
+    width: 100%;
+  }
+
+  .admin-header h1 {
+    font-size: 1.5rem;
+  }
+
+  .admin-header,
+  .admin-content-area,
+  .admin-form {
+    padding: 1rem;
+  }
+
+  .users-table,
+  .customers-table,
+  .pricing-table {
+    font-size: 0.9rem;
+  }
+
+  .users-table th,
+  .customers-table th,
+  .pricing-table th,
+  .users-table td,
+  .customers-table td,
+  .pricing-table td {
+    padding: 0.75rem;
+  }
+}
+
+/* Loading States */
+.users-list,
+.customers-list,
+.special-pricing-list {
+  color: #495057;
+}
+
+.users-list p,
+.customers-list p,
+.special-pricing-list p {
+  text-align: center;
+  color: #6c757d;
+  font-size: 1rem;
+  padding: 1.5rem;
+}

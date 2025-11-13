@@ -1,0 +1,28 @@
+html {
+  height: 100%;
+}
+
+body {
+  min-height: 100vh;
+  margin: 0;
+  background-color: #2e2e2e;
+}
+
+main {
+  padding: 20px;
+}
+
+body {
+  background: linear-gradient(to bottom, #1e293b, #0f172a);
+  color: #f8fafc;
+font-family: 'Inter', system-ui, -apple-system, sans-serif;  background-repeat: no-repeat;
+  background-size: cover;
+  background-attachment: fixed;
+}
+button {
+  background-color: #38bdf8;
+  color: #0f172a;
+}
+button:hover {
+  background-color: #0ea5e9;
+}

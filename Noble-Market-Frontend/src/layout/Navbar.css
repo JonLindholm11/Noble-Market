@@ -1,0 +1,123 @@
+body {
+  margin: 0;
+  font-family: Arial, sans-serif;
+}
+
+.sticky-header {
+  background-color: #3a3030;
+  color: #fff;
+  position: sticky;
+  top: 0;
+  z-index: 100;
+
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 10px 20px;
+}
+.sticky-header {
+  cursor: default;
+}
+.sticky-header p {
+  margin: 0;
+  font-weight: 700;
+  letter-spacing: 0.3px;
+}
+
+.sticky-header nav {
+  display: flex;
+  gap: 12px;
+  align-items: center;
+}
+
+.sticky-header a {
+  text-decoration: none;
+  color: #fff;
+  cursor: pointer;
+  padding: 6px 8px;
+  border-radius: 6px;
+}
+
+/* deep ocean navbar */
+.sticky-header {
+  background-color: #0a1128;
+  border-bottom: 2px solid white;
+  color: #e0e1dd;
+}
+.sticky-header p {
+  color: #bfe7dd;
+}
+.sticky-header a {
+  color: #e0e1dd;
+  transition: all 0.3s ease;
+}
+.sticky-header a:hover {
+  background-color: #06ffc4;
+  color: #0a1128;
+}
+/* drop down button for login */
+.dropbtn {
+  background-color: #0a1128;
+  color: #e0e1dd;
+  padding: 6px 8px;
+  font-size: 16px;
+  border: none;
+  border-radius: 6px;
+  cursor: pointer;
+  transition: all 0.3s ease;
+}
+
+.dropdown {
+  position: relative;
+  display: inline-block;
+}
+
+.dropdown-content {
+  display: none;
+  position: absolute;
+  right: 0;
+  background-color: #06ffc4;
+  border-radius: 6px;
+  min-width: 160px;
+  box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
+  z-index: 1;
+}
+
+.dropdown-content a {
+  color: #0a1128;
+  padding: 12px 16px;
+  text-decoration: none;
+  display: block;
+}
+
+.dropdown-content a:hover {
+  background-color: #ddd;
+}
+
+.dropdown:hover .dropdown-content {
+  display: block;
+}
+
+.dropdown:hover .dropbtn {
+  background-color: #06ffc4;
+  color: #0a1128;
+}
+
+/* logout button */
+.logoutBtn {
+  background-color: transparent;
+  color: #0a1128;
+  padding: 12px 16px;
+  font-size: 16px;
+  border: none;
+  border-radius: 0;
+  cursor: pointer;
+  text-decoration: none;
+  display: block;
+  width: 100%;
+  text-align: left;
+}
+.logoutBtn:hover {
+  background-color: #ddd;
+  border-radius: 6px;
+}

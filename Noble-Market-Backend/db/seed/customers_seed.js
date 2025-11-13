@@ -1,0 +1,130 @@
+import { createCustomers } from "#db/queries/customers";
+
+export async function seedCustomers() {
+  const customers = [
+  {
+    user_id: 10,
+    company_name: "Acme Corporation",
+    contact_name: "John Smith",
+    email: "user1@projectname.com",
+    assigned_salesman_id: 2,
+    account_status: "active",
+  },
+  {
+    user_id: 11,
+    company_name: "TechVision Inc",
+    contact_name: null,
+    email: "user2@projectname.com",
+    assigned_salesman_id: 2,
+    account_status: "active",
+  },
+  {
+    user_id: 12,
+    company_name: null,
+    contact_name: "Michael Brown",
+    email: "user3@projectname.com",
+    assigned_salesman_id: 2,
+    account_status: "active",
+  },
+  {
+    user_id: 13,
+    company_name: "Innovative Solutions",
+    contact_name: "Emily Davis",
+    email: "user4@projectname.com",
+    assigned_salesman_id: 2,
+    account_status: "active",
+  },
+  {
+    user_id: 14,
+    company_name: null,
+    contact_name: null,
+    email: "user5@projectname.com",
+    assigned_salesman_id: 2,
+    account_status: "active",
+  },
+  {
+    user_id: 15,
+    company_name: "Metro Supplies",
+    contact_name: null,
+    email: "user6@projectname.com",
+    assigned_salesman_id: 3,
+    account_status: "active",
+  },
+  {
+    user_id: 16,
+    company_name: null,
+    contact_name: "Robert Garcia",
+    email: "user7@projectname.com",
+    assigned_salesman_id: 3,
+    account_status: "active",
+  },
+  {
+    user_id: 17,
+    company_name: "Coastal Distributors",
+    contact_name: "Amanda Rodriguez",
+    email: "user8@projectname.com",
+    assigned_salesman_id: 3,
+    account_status: "active",
+  },
+  {
+    user_id: 18,
+    company_name: "Apex Manufacturing",
+    contact_name: null,
+    email: "user9@projectname.com",
+    assigned_salesman_id: 3,
+    account_status: "pending",
+  },
+  {
+    user_id: 19,
+    company_name: null,
+    contact_name: null,
+    email: "user10@projectname.com",
+    assigned_salesman_id: 3,
+    account_status: "pending",
+  },
+  {
+    user_id: 20,
+    company_name: "Precision Tools Ltd",
+    contact_name: "James Anderson",
+    email: "user11@projectname.com",
+    assigned_salesman_id: 4,
+    account_status: "active",
+  },
+  {
+    user_id: 21,
+    company_name: null,
+    contact_name: "Lisa Thomas",
+    email: "user12@projectname.com",
+    assigned_salesman_id: 4,
+    account_status: "active",
+  },
+  {
+    user_id: 22,
+    company_name: "Unified Systems",
+    contact_name: null,
+    email: "user13@projectname.com",
+    assigned_salesman_id: 4,
+    account_status: "active",
+  },
+  {
+    user_id: 23,
+    company_name: null,
+    contact_name: null,
+    email: "user14@projectname.com",
+    assigned_salesman_id: 4,
+    account_status: "pending",
+  },
+  {
+    user_id: 24,
+    company_name: "Paramount Ventures",
+    contact_name: "Steven Harris",
+    email: "user15@projectname.com",
+    assigned_salesman_id: null,
+    account_status: "pending",
+  },
+];
+  for (const customer of customers) {
+    await createCustomers(customer);
+  }
+  console.log("completed seeding customers");
+}
