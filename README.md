@@ -5,7 +5,7 @@ A full-stack B2B e-commerce platform featuring role-based access control, custom
 # Useful Links
 
 https://noble-market-83.netlify.app (live link for the Frontend)  
-https://capstone-backend-project-assimilation-fu6a.onrender.com/ping (live link for the Backend)
+https://capstone-backend-project-assimilation-fu6a.onrender.com (live link for the Backend)
 
 ## Features
 
@@ -280,6 +280,7 @@ This project was created as a capstone project for educational purposes with ful
 ##  Acknowledgments
 
 Built as part of a full-stack web development bootcamp, enhanced with containerization and orchestration technologies.
+
 
 
 
