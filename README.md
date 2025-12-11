@@ -2,6 +2,10 @@
 
 A full-stack B2B e-commerce platform featuring role-based access control, customer-specific pricing tiers, and containerized deployment with Docker and Kubernetes.
 
+# Useful Links
+
+https://noble-market-83.netlify.app (live link for the project)
+
 ## Features
 
 - **Multi-Role Authentication System**
@@ -275,3 +279,4 @@ This project was created as a capstone project for educational purposes with ful
 ##  Acknowledgments
 
 Built as part of a full-stack web development bootcamp, enhanced with containerization and orchestration technologies.
+
