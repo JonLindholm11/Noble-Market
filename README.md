@@ -1,16 +1,16 @@
-Noble Market
+# Noble Market
 
 A full-stack B2B e-commerce platform designed to support role-based workflows, customer-specific pricing, and scalable deployment using Docker and Kubernetes.
 Developed as the sole backend engineer for a 5-person team, responsible for API design, authentication, and system architecture.
 
-# My Role
+## My Role
 
 - Sole backend developer responsible for designing and implementing the Express.js API
 - Led technical direction and coordinated frontend integration
 - Designed authentication, pricing logic, and database schema
 - Managed task coordination and feature alignment across a 5-person team
 
-# Useful Links
+## Useful Links
 
 https://noble-market-83.netlify.app (live link for the Frontend)  
 https://capstone-backend-project-assimilation-fu6a.onrender.com (live link for the Backend)  
