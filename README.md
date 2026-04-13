@@ -244,19 +244,6 @@ docker-compose down
 kubectl delete namespace noble-market
 ```
 
-##  What I Learned
-
-This project demonstrates:
-- Full-stack application development with modern frameworks
-- Containerization and orchestration with Docker and Kubernetes
-- Complex database design and relationships
-- RESTful API architecture
-- Authentication and authorization patterns
-- Multi-stage Docker builds for optimization
-- Production-ready deployment configurations
-
-##  Future Enhancements
-
 ## Future Enhancements
 
 - [ ] **Warehouse Management Role**
